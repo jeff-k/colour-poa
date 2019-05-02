@@ -1,0 +1,13 @@
+[package]
+name = "colour-poa"
+version = "0.1.0"
+authors = ["jeff-k <jeff_k@fastmail.com>"]
+edition = "2018"
+
+[dependencies]
+bio = { git = "https://github.com/jeff-k/rust-bio.git", branch = "coloured-poa" }
+clap = "2"
+
+[dependencies.petgraph]
+version = "*"
+features = ["stable_graph"]
